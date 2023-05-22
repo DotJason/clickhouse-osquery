@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "osquery": "1.0.0",
+    "mysql2": "^3.3.1",
+    "express": "4.18.2"
+  }
+}
