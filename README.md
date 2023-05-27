@@ -26,7 +26,7 @@ The default port for this app is 3000, so once the app is running the page can b
 
 The app processes a simple form with 2 input fields:
 
-- Table name: the name of the table to write results into.
+- Table name: the name of the table to write results into (**if the table already exists, it will be dropped to be created again, thereby deleting all existing data**).
 - Query: the SQL query to be sent to the osquery client.
 
-In case of a successful write, the new ClickHouse table can be accessed by standard means.
+On submit, in case of a successful write, the new ClickHouse table can be accessed by standard means.
