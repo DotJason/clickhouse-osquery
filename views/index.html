@@ -10,12 +10,18 @@
     </h1>
 
     <form action="query">
-      <span>Table name:</span>
-      <input type="text" name="table_name">
-
-      <span>Query:</span>
-      <input type="text" name="sql">
-
+      <div id="table_name">
+        <span>Table name:</span>
+        <br>
+        <input type="text" name="table_name">
+      </div>
+      <br>
+      <div id="query">
+        <span>Query:</span>
+        <br>
+        <textarea name="sql" rows="20" cols="80"></textarea>
+      </div>
+      <br>
       <input type="submit">
     </form>
   </body>
